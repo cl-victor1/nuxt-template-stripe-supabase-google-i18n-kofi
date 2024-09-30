@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="mt-12 text-center">
-        <NuxtLink :to="localePath('index')" class="text-blue-500 hover:underline">{{ $t('back_to_home') }}</NuxtLink>
+        <NuxtLink :to="localePath('index')" class="text-blue-500 hover:underline">Back to Home</NuxtLink>
       </div>
     </div>
   </section>
