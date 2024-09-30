@@ -48,13 +48,12 @@
 3. 在根目录创建一个`.env`文件，并添加以下环境变量：
 
    ```
-   OPENAI_API_KEY=your_openai_api_key
    SUPABASE_URL=your_supabase_url
    SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
    STRIPE_SERVER_KEY=your_stripe_server_key
    STRIPE_CLIENT_KEY=your_stripe_client_key
    GOOGLE_CLIENT_ID=your_google_client_id
-   PUBLIC_URL=your_public_url
+   PUBLIC_URL=your_public_url # local: http://localhost:3000, production: https://yourdomain.com
    ```
 
    将`your_*`替换为您的实际凭证和URL。

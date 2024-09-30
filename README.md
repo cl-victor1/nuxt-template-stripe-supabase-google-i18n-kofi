@@ -50,13 +50,12 @@ This template provides a ready-to-use starter kit for building Nuxt.js applicati
 3. Create a `.env` file in the root directory and add the following environment variables:
 
    ```
-   OPENAI_API_KEY=your_openai_api_key
    SUPABASE_URL=your_supabase_url
    SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
    STRIPE_SERVER_KEY=your_stripe_server_key
    STRIPE_CLIENT_KEY=your_stripe_client_key
    GOOGLE_CLIENT_ID=your_google_client_id
-   PUBLIC_URL=your_public_url
+   PUBLIC_URL=your_public_url # local: http://localhost:3000, production: https://yourdomain.com
    ```
 
    Replace `your_*` with your actual credentials and URLs.
