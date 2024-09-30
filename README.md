@@ -1,28 +1,23 @@
 # Nuxt Template with Stripe, Supabase, Google Auth, i18n, and Ko-fi Integration
 
-This template provides a ready-to-use starter kit for building Nuxt.js applications with essential third-party integrations. It’s designed to streamline the setup process for projects that need subscription management, internationalization, authentication, and donation functionality. Key features include:
+<div align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</div>
+
+
+This template provides a ready-to-use starter kit for building Nuxt.js applications with essential third-party integrations. It's designed to streamline the setup process for projects that need subscription management, internationalization, authentication, and donation functionality.
+
+## Features
 
 - **Stripe Integration**: Easily manage payments and subscriptions with Stripe.
 - **Supabase Integration**: Leverage Supabase for scalable backend services, including real-time databases and authentication.
 - **Google Auth**: Enable secure and fast authentication via Google OAuth.
 - **i18n (Internationalization)**: Provide multilingual support with Vue I18n, making your app accessible globally.
 - **Ko-fi Donations**: Seamlessly integrate Ko-fi for community-supported contributions and donations.
+- **Google Analytics**: Built-in Google Analytics integration for tracking user behavior and site performance.
+- **Product Hunt Badge**: Showcase your product with an embedded Product Hunt badge for increased visibility and credibility.
 
-This template saves time for developers looking to integrate these common services, allowing them to focus on building their core product.
 
-
-
-# Nuxt Template with Stripe, Supabase, Google Auth, i18n, and Ko-fi Integration
-
-This template provides a ready-to-use starter kit for building Nuxt.js applications with essential third-party integrations. It's designed to streamline the setup process for projects that need subscription management, internationalization, authentication, and donation functionality.
-
-## Features
-
-- Stripe Integration for payments and subscriptions
-- Supabase Integration for backend services
-- Google Auth for secure authentication
-- i18n (Internationalization) support
-- Ko-fi integration for donations
 
 ## Prerequisites
 
@@ -169,4 +164,6 @@ For any questions or issues, please open an issue in the GitHub repository or co
 ## License
 
 [MIT License](LICENSE)
+
+
 
