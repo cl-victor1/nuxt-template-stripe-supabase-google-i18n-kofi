@@ -7,6 +7,18 @@
 ## 简介
 这个模板为构建Nuxt.js应用程序提供了一个即用型的起始套件，集成了多个重要的第三方服务。它旨在简化那些需要订阅管理、国际化、身份认证和捐赠功能的项目的设置过程。
 
+## 演示
+
+体验我们的交互式演示，了解模板的实际运行效果：
+
+<div align="center">
+  <a href="https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW" target="_blank">
+    <img src="assets/demo.png" alt="演示缩略图" width="800" height="600">
+  </a>
+</div>
+
+点击上方图片或[此链接](https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW)在新标签页中查看交互式演示。
+
 ## 特性
 
 - **Stripe集成**：轻松管理支付和订阅。

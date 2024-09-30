@@ -12,10 +12,12 @@ This template provides a ready-to-use starter kit for building Nuxt.js applicati
 Experience the template in action with our interactive demo:
 
 <div align="center">
-  <iframe src="https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+  <a href="https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW" target="_blank">
+    <img src="assets/demo.png" alt="Demo Thumbnail" width="800" height="600">
+  </a>
 </div>
 
-If the iframe doesn't load, you can [click here](https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW/view) to view the interactive demo in a new tab.
+Click the image above or [this link](https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW) to view the interactive demo in a new tab.
 
 
 ## Features
