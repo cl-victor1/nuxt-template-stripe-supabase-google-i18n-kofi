@@ -32,8 +32,8 @@ This template provides a ready-to-use starter kit for building Nuxt.js applicati
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-repo-url.git
-   cd your-project-name
+   git clone https://github.com/cl-victor1/nuxt-template-stripe-supabase-google-i18n-kofi.git
+   cd nuxt-template-stripe-supabase-google-i18n-kofi
    ```
 
 2. Install dependencies:

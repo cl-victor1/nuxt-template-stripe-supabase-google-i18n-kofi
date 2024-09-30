@@ -30,8 +30,8 @@
 
 1. 克隆仓库：
    ```
-   git clone https://github.com/your-repo-url.git
-   cd your-project-name
+   git clone https://github.com/cl-victor1/nuxt-template-stripe-supabase-google-i18n-kofi.git
+   cd nuxt-template-stripe-supabase-google-i18n-kofi
    ```
 
 2. 安装依赖：
