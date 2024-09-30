@@ -7,6 +7,17 @@
 ## Introduction
 This template provides a ready-to-use starter kit for building Nuxt.js applications with essential third-party integrations. It's designed to streamline the setup process for projects that need subscription management, internationalization, authentication, and donation functionality.
 
+## Demo
+
+Experience the template in action with our interactive demo:
+
+<div align="center">
+  <iframe src="https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW/view" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+</div>
+
+If the iframe doesn't load, you can [click here](https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW/view) to view the interactive demo in a new tab.
+
+
 ## Features
 
 - **Stripe Integration**: Easily manage payments and subscriptions with Stripe.
