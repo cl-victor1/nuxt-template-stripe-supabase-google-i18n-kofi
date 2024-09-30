@@ -2,9 +2,9 @@
 
 <div align="center">
   <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
-</div>
+    </div>
 
-
+## Introduction
 This template provides a ready-to-use starter kit for building Nuxt.js applications with essential third-party integrations. It's designed to streamline the setup process for projects that need subscription management, internationalization, authentication, and donation functionality.
 
 ## Features
@@ -61,12 +61,20 @@ This template provides a ready-to-use starter kit for building Nuxt.js applicati
 
 4. Update the configuration files:
 
-   - In `nuxt.config.ts`, replace the Google Analytics ID:
+   - In `app.vue`, replace the Google Analytics ID:
    
    ```typescript
-   googleAnalytics: {
-     id: 'G-XXXXXXXXXX' // Replace with your Google Analytics ID
-   }
+   const gaScript = document.createElement('script')
+  gaScript.async = true
+  gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXXXXX' // Change to your own Google Analytics ID
+  document.body.appendChild(gaScript)
+
+  gaScript.onload = () => {
+    window.dataLayer = window.dataLayer || []
+    function gtag(){dataLayer.push(arguments)}
+    gtag('js', new Date())
+    gtag('config', 'G-XXXXXXXXXXXXX') // Change to your own Google Analytics ID
+  }
    ```
 
    - In `app.vue`, update the Ko-fi widget configuration:
@@ -106,7 +114,7 @@ This template provides a ready-to-use starter kit for building Nuxt.js applicati
 
 9. Set up Google OAuth 2.0 credentials in the Google Cloud Console and ensure the authorized JavaScript origins and redirect URIs are correctly set.
 
-10. (Optional) Set up your Ko-fi account and update the widget configuration in `app.vue`.
+
 
 ## Running the Application
 
@@ -119,7 +127,7 @@ npm run dev
 or with pnpm:
 
 ```
-pnpm dev
+pnpm run dev
 ```
 
 
@@ -134,7 +142,7 @@ npm run build
 or with pnpm:
 
 ```
-pnpm build
+pnpm run build
 ```
 
 

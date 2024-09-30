@@ -6,12 +6,12 @@ export default defineNuxtConfig({
   
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
-    // 仅在服务器端可用的私有密钥
+    // secret keys, only available on server
     openaiApiKey: process.env.OPENAI_API_KEY,
     supabaseUrl: process.env.SUPABASE_URL,
     supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY,
     stripeServerKey: process.env.STRIPE_SERVER_KEY,
-    // 公开的键，也会暴露给客户端
+    // public keys, also exposed to client
     public: {
       GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
       stripeClientKey: process.env.STRIPE_CLIENT_KEY,
@@ -33,7 +33,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
   ],
   sitemap: <Partial<ModuleOptions>>{
-    hostname: 'https://headshotgenerator.net',
+    hostname: 'https://xxxxx.net', // Change to your site URL
     gzip: true,
     exclude: [
       '/admin/**'
@@ -69,11 +69,12 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'https://headshotgenerator.net',
+    url: 'https://xxxxx.net', // Change to your site URL
   },
   i18n: {
     vueI18n: './i18n.config.ts',
     locales: [
+      // Add your locales here
       { code: 'en', language: 'en-US' },
       { code: 'fr', language: 'fr-FR' },
       { code: 'de', language: 'de-DE' }
