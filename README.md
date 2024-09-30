@@ -67,16 +67,16 @@ This template provides a ready-to-use starter kit for building Nuxt.js applicati
    
    ```typescript
    const gaScript = document.createElement('script')
-  gaScript.async = true
-  gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXXXXX' // Change to your own Google Analytics ID
-  document.body.appendChild(gaScript)
+    gaScript.async = true
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXXXXX' // Change to your own Google Analytics ID
+    document.body.appendChild(gaScript)
 
-  gaScript.onload = () => {
+    gaScript.onload = () => {
     window.dataLayer = window.dataLayer || []
     function gtag(){dataLayer.push(arguments)}
     gtag('js', new Date())
     gtag('config', 'G-XXXXXXXXXXXXX') // Change to your own Google Analytics ID
-  }
+    }
    ```
 
    - In `app.vue`, update the Ko-fi widget configuration:
