@@ -16,6 +16,8 @@ This template provides a ready-to-use starter kit for building Nuxt.js applicati
 - **Ko-fi Donations**: Seamlessly integrate Ko-fi for community-supported contributions and donations.
 - **Google Analytics**: Built-in Google Analytics integration for tracking user behavior and site performance.
 - **Product Hunt Badge**: Showcase your product with an embedded Product Hunt badge for increased visibility and credibility.
+- **Vercel Analytics**: Integrated Vercel Analytics plugin for advanced performance monitoring and insights.
+- **Cursor AI Support**: Includes a `.cursorrules` file in the root directory to enhance code writing with Cursor AI.
 
 
 

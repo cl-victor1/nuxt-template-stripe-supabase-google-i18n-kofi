@@ -16,6 +16,8 @@
 - **Ko-fi捐赠**：无缝集成Ko-fi，支持社区贡献和捐赠。
 - **Google Analytics**：内置Google Analytics集成，用于跟踪用户行为和网站性能。
 - **Product Hunt徽章**：嵌入Product Hunt徽章，展示您的产品，提高可见度和可信度。
+- **Vercel Analytics**：集成Vercel Analytics插件，用于高级性能监控和洞察。
+- **Cursor AI支持**：在根目录包含`.cursorrules`文件，增强使用Cursor AI编写代码的体验。
 
 ## 前提条件
 
