@@ -17,7 +17,7 @@ Experience the template in action with our interactive demo:
   </a>
 </div>
 
-Click the image above or [this link](https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW) to view the interactive demo in a new tab.
+Click the image above or [this link](https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW) to view the interactive demo in a new tab. Please note that the popped out Google login window was not captured in the demo.
 
 
 ## Features

@@ -17,7 +17,7 @@
   </a>
 </div>
 
-点击上方图片或[此链接](https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW)在新标签页中查看交互式演示。
+点击上方图片或[此链接](https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW)在新标签页中查看交互式演示。请注意，弹出的Google登录窗口未在演示中显示。
 
 ## 特性
 
