@@ -9,3 +9,164 @@ This template provides a ready-to-use starter kit for building Nuxt.js applicati
 - **Ko-fi Donations**: Seamlessly integrate Ko-fi for community-supported contributions and donations.
 
 This template saves time for developers looking to integrate these common services, allowing them to focus on building their core product.
+
+
+
+# Nuxt Template with Stripe, Supabase, Google Auth, i18n, and Ko-fi Integration
+
+This template provides a ready-to-use starter kit for building Nuxt.js applications with essential third-party integrations. It's designed to streamline the setup process for projects that need subscription management, internationalization, authentication, and donation functionality.
+
+## Features
+
+- Stripe Integration for payments and subscriptions
+- Supabase Integration for backend services
+- Google Auth for secure authentication
+- i18n (Internationalization) support
+- Ko-fi integration for donations
+
+## Prerequisites
+
+- Node.js (v14 or later)
+- npm or pnpm
+- Stripe account
+- Supabase account
+- Google Cloud Console project with OAuth 2.0 credentials
+- Ko-fi account (optional)
+
+## Getting Started
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-repo-url.git
+   cd your-project-name
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+   or if you're using pnpm:
+   ```
+   pnpm install
+   ```
+
+3. Create a `.env` file in the root directory and add the following environment variables:
+
+   ```
+   OPENAI_API_KEY=your_openai_api_key
+   SUPABASE_URL=your_supabase_url
+   SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+   STRIPE_SERVER_KEY=your_stripe_server_key
+   STRIPE_CLIENT_KEY=your_stripe_client_key
+   GOOGLE_CLIENT_ID=your_google_client_id
+   PUBLIC_URL=your_public_url
+   ```
+
+   Replace `your_*` with your actual credentials and URLs.
+
+4. Update the configuration files:
+
+   - In `nuxt.config.ts`, replace the Google Analytics ID:
+   
+   ```typescript
+   googleAnalytics: {
+     id: 'G-XXXXXXXXXX' // Replace with your Google Analytics ID
+   }
+   ```
+
+   - In `app.vue`, update the Ko-fi widget configuration:
+   
+   ```typescript
+   // Change to your own Ko-fi link
+   const kofiScript = document.createElement('script');
+   kofiScript.src = 'https://storage.ko-fi.com/cdn/scripts/overlay-widget.js';
+   kofiScript.onload = () => {
+     // Initialize Ko-fi widget after script is loaded
+     window.kofiWidgetOverlay.draw('buy_victor_a_coffee', {
+       'type': 'floating-chat',
+       'floating-chat.donateButton.text': 'Support me',
+       'floating-chat.donateButton.background-color': '#00b9fe',
+       'floating-chat.donateButton.text-color': '#fff'
+     });
+   };
+   ```
+
+5. Customize the content:
+   - Update the service name, description, and other text throughout the application. Look for comments like "Change to your own ..." and replace the placeholder text with your own information.
+   - Replace the logo and favicon in the `public` directory with your own assets.
+
+6. Update the i18n translations in `i18n.config.ts` to match your service's content.
+
+7. Set up your Stripe products and prices, then update the price IDs in `pages/price.vue`:
+   
+   ```vue
+   <button @click="() => handleCheckout('price_xxxx')" id="checkout-button-basic" class="h-10 text-sm font-medium rounded text-blue-900 text-center w-full bg-white active:scale-95 transition-transform">Choose this plan</button>
+   ```
+   
+   ```vue
+   <button @click="() => handleCheckout('price_xxxx')" id="checkout-button-pro" class="h-10 text-sm font-medium rounded text-blue-900 text-center w-full bg-white active:scale-95 transition-transform">Choose this plan</button>
+   ```
+
+8. Configure your Supabase database and update any related API calls in the server directory.
+
+9. Set up Google OAuth 2.0 credentials in the Google Cloud Console and ensure the authorized JavaScript origins and redirect URIs are correctly set.
+
+10. (Optional) Set up your Ko-fi account and update the widget configuration in `app.vue`.
+
+## Running the Application
+
+To run the application in development mode:
+
+```
+npm run dev
+```
+
+or with pnpm:
+
+```
+pnpm dev
+```
+
+
+## Building for Production
+
+To build the application for production:
+
+```
+npm run build
+```
+
+or with pnpm:
+
+```
+pnpm build
+```
+
+
+## Deployment
+
+This template is configured for easy deployment on Vercel. Make sure to set up your environment variables in your Vercel project settings.
+
+For other hosting platforms, refer to their respective documentation for deploying Nuxt 3 applications.
+
+## Customization
+
+- Tailwind CSS: The template uses Tailwind CSS for styling. You can customize the theme in `tailwind.config.js`.
+- Components: Add or modify components in the `components` directory.
+- Pages: Update or add new pages in the `pages` directory.
+- API Routes: Server-side API routes are located in the `server/api` directory.
+
+## Important Notes
+
+- Always replace placeholder content, especially in legal pages like Terms of Service, Privacy Policy, and Refund Policy.
+- Ensure all API keys and sensitive information are kept secure and not committed to version control.
+- Test thoroughly, especially payment flows and authentication, before going live.
+
+## Support
+
+For any questions or issues, please open an issue in the GitHub repository or contact the template maintainer.
+
+## License
+
+[MIT License](LICENSE)
+
