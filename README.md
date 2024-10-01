@@ -8,6 +8,7 @@
 This template provides a ready-to-use starter kit for building Nuxt.js applications with essential third-party integrations. It's designed to streamline the setup process for projects that need subscription management, internationalization, authentication, and donation functionality.
 
 ## Demo
+Website made with this template: https://headshotgenerator.net
 
 Experience the template in action with our interactive demo:
 
