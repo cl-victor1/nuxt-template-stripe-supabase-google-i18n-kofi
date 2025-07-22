@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
-    </div>
+</div>
 
 ## Introduction
 This template provides a ready-to-use starter kit for building Nuxt.js applications with essential third-party integrations. It's designed to streamline the setup process for projects that need subscription management, internationalization, authentication, and donation functionality.
@@ -20,6 +20,22 @@ Experience the template in action with our interactive demo:
 
 Click the image above or [this link](https://app.arcade.software/flows/xxq5LCtDW68nRlHCeNLW) to view the interactive demo in a new tab. Please note that the popped out Google login window was not captured in the demo.
 
+## Products Built with This Template
+
+Here are some real-world applications built using this Nuxt template:
+
+### AI & Technology
+- **[AI Flux](https://ai-flux.io/)** - Professional AI image editing platform with context-aware editing capabilities
+- **[AIdeaFlow Podcast](https://aideaflowpodcast.com/en)** - AI-powered podcast generator with natural voice synthesis
+- **[AI is All You Need](https://aiisallyouneed.ai/en)** - Comprehensive AI tools and resources platform
+- **[DivineTalk AI](https://divinetalk.ai/en)** - AI-powered spiritual and religious content platform
+
+### Lifestyle & Services
+- **[KFC Menu](https://kfcmenu.net/)** - Complete KFC menu with prices and nutritional information
+- **[Interpret Dreams](https://interpretdreams.online/)** - AI-powered dream interpretation service
+- **[Send the Prayer](https://sendtheprayer.net/)** - Digital prayer request and sharing platform
+
+These products demonstrate the versatility of this template across different industries and use cases, from AI-powered services to lifestyle applications.
 
 ## Features
 
@@ -32,8 +48,6 @@ Click the image above or [this link](https://app.arcade.software/flows/xxq5LCtDW
 - **Product Hunt Badge**: Showcase your product with an embedded Product Hunt badge for increased visibility and credibility.
 - **Vercel Analytics**: Integrated Vercel Analytics plugin for advanced performance monitoring and insights.
 - **Cursor AI Support**: Includes a `.cursorrules` file in the root directory to enhance code writing with Cursor AI.
-
-
 
 ## Prerequisites
 
@@ -129,64 +143,6 @@ Click the image above or [this link](https://app.arcade.software/flows/xxq5LCtDW
 
 9. Set up Google OAuth 2.0 credentials in the Google Cloud Console and ensure the authorized JavaScript origins and redirect URIs are correctly set.
 
-
-
 ## Running the Application
 
 To run the application in development mode:
-
-```
-npm run dev
-```
-
-or with pnpm:
-
-```
-pnpm run dev
-```
-
-
-## Building for Production
-
-To build the application for production:
-
-```
-npm run build
-```
-
-or with pnpm:
-
-```
-pnpm run build
-```
-
-
-## Deployment
-
-This template is configured for easy deployment on Vercel. Make sure to set up your environment variables in your Vercel project settings.
-
-For other hosting platforms, refer to their respective documentation for deploying Nuxt 3 applications.
-
-## Customization
-
-- Tailwind CSS: The template uses Tailwind CSS for styling. You can customize the theme in `tailwind.config.js`.
-- Components: Add or modify components in the `components` directory.
-- Pages: Update or add new pages in the `pages` directory.
-- API Routes: Server-side API routes are located in the `server/api` directory.
-
-## Important Notes
-
-- Always replace placeholder content, especially in legal pages like Terms of Service, Privacy Policy, and Refund Policy.
-- Ensure all API keys and sensitive information are kept secure and not committed to version control.
-- Test thoroughly, especially payment flows and authentication, before going live.
-
-## Support
-
-For any questions or issues, please open an issue in the GitHub repository or contact the template maintainer.
-
-## License
-
-[MIT License](LICENSE)
-
-
-
