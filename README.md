@@ -28,6 +28,7 @@ Here are some real-world applications built using this Nuxt template:
 - **[AI Flux](https://ai-flux.io/)** - Professional AI image editing platform with context-aware editing capabilities
 - **[AIdeaFlow Podcast](https://aideaflowpodcast.com/en)** - AI-powered podcast generator with natural voice synthesis
 - **[AI is All You Need](https://aiisallyouneed.ai/en)** - Comprehensive AI tools and resources platform
+- **[Painly](https://painly.ai)** - AI Reddit Account Builder
 - **[Veo 4](https://veo4.dev/)** - The Future of AI Video Generation
 - **[Veo 5](https://veo5.io)** - The Future of AI Video Generation
 - **[Sora 3](https://sora3.dev)** - The Future of AI Video Generation
